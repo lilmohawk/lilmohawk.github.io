@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Bus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="stroked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Transport" sketch:type="MSLayerGroup" transform="translate(-719.000000, -598.000000)" stroke="#535353" stroke-width="2" stroke-linejoin="round">
+            <g id="Bus" transform="translate(720.000000, 620.000000)" sketch:type="MSShapeGroup">
+                <path d="M41,26 L27,26 L27,26 C27,23.2385763 24.7614237,21 22,21 C19.2385763,21 17,23.2385763 17,26 C17,23.2385763 14.7614237,21 12,21 C9.23857625,21 7,23.2385763 7,26 L5.45649919,26 C2.4429579,26 0,23.5539831 0,20.549548 L0,5.450452 C0,2.44025048 2.43671227,0 5.45649919,0 L45.0017276,0 C52.1804752,0 58,5.81871963 58,13 L58,26 L51,26 C51,23.2385763 48.7614237,21 46,21 C43.2385763,21 41,23.2385763 41,26 Z" id="Rectangle-1771" stroke-linecap="round"></path>
+                <circle id="Oval-1553" stroke-linecap="round" cx="12" cy="26" r="5"></circle>
+                <circle id="Oval-1551" stroke-linecap="round" cx="22" cy="26" r="5"></circle>
+                <circle id="Oval-1552" stroke-linecap="round" cx="46" cy="26" r="5"></circle>
+                <rect id="Rectangle-1772" stroke-linecap="round" x="0" y="5" width="52" height="8"></rect>
+                <path d="M58,17 L53,17" id="Line" stroke-linecap="square"></path>
+                <path d="M38,5 L38,13" id="Line" stroke-linecap="square"></path>
+                <path d="M26,5 L26,13" id="Line" stroke-linecap="square"></path>
+                <path d="M13,5 L13,13" id="Line" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

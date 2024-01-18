@@ -1,0 +1,52 @@
+html {
+  margin: auto;
+}
+
+body {
+  background: url('images/backgroud.png');
+  font-family: Arial;
+}
+
+table, td, th {
+  border: 1px solid;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(222, 222, 222);
+}
+
+#main-nav a{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#main-nav a:hover{
+  background-color: gray;
+}
+
+
+#top {
+  color: white;
+  background-color: #67A7DB;
+  font-family: Verdana;
+  padding: 5px;
+}
+
+.main-img {
+  display: block;
+  margin:auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 30%;
+  border: 3px solid rgb(129, 129, 129);
+}
+
+#content {
+  width: 90%;
+  margin: auto;
+}

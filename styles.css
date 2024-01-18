@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D9DAED;
+}
+
+#top {
+  background-color: #384CE0;
+  color: white;
+  padding: 5px;
+}
+
+#Assignment-Links {
+  color: gray;
+}
+
+#content {
+  padding: 5px;
+}
+
+ol li a {
+  text-decoration: none;
+  color: black;
+}
+
+ol li a:hover {
+  text-decoration: none;
+  color: #384CE0;
+}

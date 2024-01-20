@@ -3,26 +3,49 @@ body {
   background-color: #D9DAED;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #top {
   background-color: #384CE0;
   color: white;
   padding: 5px;
 }
 
-#Assignment-Links {
-  color: gray;
-}
-
 #content {
   padding: 5px;
 }
 
-ol li a {
-  text-decoration: none;
-  color: black;
+#content section {
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-ol li a:hover {
+#content section img {
+  display: block;
+  margin: 0 auto;
+}
+
+a:hover {
   text-decoration: none;
   color: #384CE0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 760px){
+  #content {
+    display: flex;
+  }
+
+  .item1 {
+    flex: 1;
+  }
+
 }

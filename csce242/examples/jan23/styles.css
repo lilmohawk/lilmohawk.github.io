@@ -1,0 +1,10 @@
+/* CSS VARIABLES */
+:root {
+  /*THis is an example of a var */
+  --background-color: yellow;
+}
+
+body {
+  /*How to use*/
+  background-color: var(--background-color);
+}

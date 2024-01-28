@@ -14,18 +14,18 @@ a {
   padding: 5px;
 }
 
-#content {
+.content {
   padding: 5px;
 }
 
-#content section {
+.content section {
   margin: 10px;
   background-color: aliceblue;
   border-radius: 5px;
   padding: 10px;
 }
 
-#content section img {
+.content section img {
   display: block;
   margin: 0 auto;
 }
@@ -40,7 +40,7 @@ a:hover {
 }
 
 @media (min-width: 760px){
-  #content {
+  .content {
     display: flex;
   }
 

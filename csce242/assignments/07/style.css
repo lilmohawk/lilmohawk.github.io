@@ -1,0 +1,75 @@
+:root {
+  --background-color: rgb(167, 167, 167);
+  --starbkg: rgb(142, 142, 242);
+  --itembkg: white;
+  --deg: 0deg;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+#star {
+  background-color: var(--starbkg);
+}
+
+#slider {
+  appearance: none;
+  width: 100%;
+  height: 25px;
+  background: var(--background-color);
+  outline: none;
+}
+
+#rotate {
+  position: relative;
+  transform: rotate(var(--deg));
+}
+
+.item {
+  background-color: var(--itembkg);
+  border: 1px solid green;
+}
+
+.mar20 {
+  margin: 20;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.star {
+  display: block;
+  margin:0 0 auto;
+}
+
+@media (min-width: 700px) {
+  .flex {
+    display: flex;
+  }
+
+  .flex1 {
+    flex: 1;
+  }
+
+  .item {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+} 

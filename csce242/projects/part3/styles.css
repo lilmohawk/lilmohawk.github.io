@@ -1,0 +1,152 @@
+:root {
+  --header-bkg: grey;
+  --black: black;
+  --header-link-color: white;
+  --login-bkg: rgb(208, 208, 208);
+  --grey: grey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--header-bkg);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--header-link-color);
+  padding: 5px;
+}
+
+#login-board {
+  margin-top: 10%;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: var(--grey);
+}
+
+/* Products.html styles*/
+#search {
+  margin: 40px auto 80px auto;
+  width: 80%;
+}
+
+#searchbar {
+  width: 92%;
+  padding: 10px;
+}
+
+#searchenter {
+  width: 5%;
+  padding: 10px;
+}
+
+.item-list {
+  border: 2px solid rgb(122, 120, 120);
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.item-list p {
+  padding-left: 10px;
+}
+
+.product-item {
+  text-decoration: none;
+  color: black;
+}
+/* About.html styles */
+#aboutus img {
+  display: block;
+  margin: 10px auto;
+}
+
+#aboutus h2 {
+  width: 70%;
+  margin: 10px auto;
+}
+
+
+#aboutus p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Seller.html styles */
+#signup {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 45%;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+/* itempage.html styles */
+#itempage img {
+  display: block;
+  margin: 10px auto;
+}
+
+
+#itempage p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#buy {
+  width: 20%;
+  padding: 10px;
+  background-color: var(--grey);
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .flex {
+    display: flex;
+  }
+
+  .flex1 {
+    flex: 1;
+  }
+
+  .flex3 {
+    flex: 3;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  nav{
+    text-align: right;
+  }
+
+  #login-board {
+    order: 1;
+    margin: 100px auto;
+    width: 50%;
+    background-color: var(--login-bkg);
+  }
+
+  #ft-words {
+    order: 2;
+    text-align: center;
+    margin: auto;
+  }
+  /* Products.html styles*/
+
+  /* About.html styles */
+
+  /* Seller.html styles */
+
+  /* itempage.html styles */
+}

@@ -1,9 +1,10 @@
 :root {
-  --header-bkg: grey;
+  --header-bkg: #0F40F5;
   --black: black;
   --header-link-color: white;
-  --login-bkg: rgb(208, 208, 208);
+  --login-bkg: #EFEFEF;
   --grey: grey;
+  --button: #A4ADB3;
 }
 
 body {
@@ -11,8 +12,49 @@ body {
   padding: 0;
 }
 
+#indexbody {
+  background-image: url(image/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: var(--header-link-color)
+}
+
 header {
   background-color: var(--header-bkg);
+}
+
+#smallnav {
+  background-color: white;
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.active {
+  display: block;
+}
+
+.lines {
+  border-bottom: 1px solid black;
+  padding: 2px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.displayblock {
+  display: block;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px;
 }
 
 nav a {
@@ -22,8 +64,34 @@ nav a {
 }
 
 #login-board {
+  color: var(--black);
   margin-top: 10%;
-  padding: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  order: 1;
+  margin: 100px auto;
+  width: 50%;
+  background-color: var(--login-bkg);
+}
+
+#ft-words {
+  order: 2;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+#login-board input{
+  margin-bottom: 10%;
+  max-width: 100%;
+}
+
+#login-board button {
+  background-color: var(--button);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 nav a:hover {
@@ -42,7 +110,7 @@ nav a:hover {
 }
 
 #searchenter {
-  width: 5%;
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -55,7 +123,12 @@ nav a:hover {
   border-radius: 5px;
 }
 
-.item-list p {
+.item-list img{
+  display: block;
+  margin: 0 auto;
+}
+
+.item-list div {
   padding-left: 10px;
 }
 
@@ -63,8 +136,15 @@ nav a:hover {
   text-decoration: none;
   color: black;
 }
+
+.logolink {
+  text-decoration: none;
+  color: var(--header-link-color)
+}
 /* About.html styles */
 #aboutus img {
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 10px auto;
 }
@@ -104,9 +184,22 @@ nav a:hover {
 #buy {
   width: 20%;
   padding: 10px;
-  background-color: var(--grey);
+  border: none;
+  background-color: var(--button);
   display: block;
   margin: 0 auto;
+}
+
+#buyform {
+  border: 2px solid var(--button);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#buyform input {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 700px) {
@@ -128,19 +221,14 @@ nav a:hover {
 
   nav{
     text-align: right;
+    display: block;
   }
 
-  #login-board {
-    order: 1;
-    margin: 100px auto;
-    width: 50%;
-    background-color: var(--login-bkg);
+  nav ul li{
+    display: inline-block;
   }
-
-  #ft-words {
-    order: 2;
-    text-align: center;
-    margin: auto;
+  #smallnav {
+    display: none;
   }
   /* Products.html styles*/
 
@@ -149,4 +237,9 @@ nav a:hover {
   /* Seller.html styles */
 
   /* itempage.html styles */
+
+  /*buypage.html styles*/
+  #buyform {
+    width: 50%;
+  }
 }

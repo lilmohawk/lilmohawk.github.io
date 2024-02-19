@@ -1,0 +1,99 @@
+:root {
+  --background-color: rgb(167, 167, 167);
+  --itembkg: white;
+  --ballY: 0px;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.hide{
+  display: none;
+}
+
+.item {
+  background-color: var(--itembkg);
+  border: 1px solid green;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+#exercise1 {
+  height: 500px;
+}
+
+#soccer {
+  margin-top: var(--ballY);
+}
+
+.item img {
+  display: block;
+  margin: 0 auto;
+}
+
+#exercise2 img {
+  margin: 0
+}
+
+#exercise2 p {
+  font-weight: bold;
+}
+
+#exercise2 ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#exercise2 ul li {
+  flex: 1;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media (min-width: 700px) {
+  .flex {
+    display: flex;
+  }
+
+  .flex1 {
+    flex: 1;
+  }
+
+  .item {
+    margin: 20px;
+    width: 100%;
+  }
+
+  nav ul{
+    text-align: center;
+  }
+
+  #e1::after {
+    content: "|";
+  }
+
+  nav ul li{
+    display: inline-block;
+  }
+} 

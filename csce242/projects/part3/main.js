@@ -6,3 +6,4 @@ const smallnav = () => {
 }
 
 navButton.onclick = smallnav;
+

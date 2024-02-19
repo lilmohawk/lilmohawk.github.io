@@ -2,9 +2,9 @@
   --header-bkg: #0F40F5;
   --black: black;
   --header-link-color: white;
-  --login-bkg: #EFEFEF;
+  --login-bkg: #efefefc2;
   --grey: grey;
-  --button: #A4ADB3;
+  --button: #0f41f597;
 }
 
 body {
@@ -78,9 +78,12 @@ nav a {
   order: 2;
   text-align: center;
   margin: auto;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-
-
 
 #login-board input{
   margin-bottom: 10%;
@@ -101,11 +104,11 @@ nav a:hover {
 /* Products.html styles*/
 #search {
   margin: 40px auto 80px auto;
-  width: 80%;
+  width: 70%;
 }
 
 #searchbar {
-  width: 92%;
+  width: 91%;
   padding: 10px;
 }
 

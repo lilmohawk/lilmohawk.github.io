@@ -23,6 +23,7 @@ body {
 
 header {
   background-color: var(--header-bkg);
+  padding: 10px;
 }
 
 #smallnav {
@@ -88,6 +89,7 @@ nav a {
 #login-board input{
   margin-bottom: 10%;
   max-width: 100%;
+  width: 70%;
 }
 
 #login-board button {
@@ -115,6 +117,21 @@ nav a:hover {
 #searchenter {
   max-width: 100%;
   padding: 10px;
+}
+
+#buyform label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textfield {
+  width: 100%;
+  padding: 5px;
+}
+
+.page-label {
+  padding-top: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .item-list {
@@ -170,6 +187,17 @@ nav a:hover {
   width: 45%;
   padding: 20px;
   margin: 100px auto;
+  background-color: var(--login-bkg);
+}
+
+#signup img{
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+#signup input{
+  margin-bottom: 20px;
 }
 
 /* itempage.html styles */
@@ -195,14 +223,27 @@ nav a:hover {
 
 #buyform {
   border: 2px solid var(--button);
+  border-radius: 5px;
   width: 70%;
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
+  background-color: var(--login-bkg);
 }
+
+#buyform img {
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
 
 #buyform input {
   margin-bottom: 20px;
+}
+
+#submit {
+  padding: 5px;
 }
 
 @media (min-width: 700px) {

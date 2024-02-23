@@ -1,0 +1,54 @@
+:root {
+  --background-color: rgb(167, 167, 167);
+  --itembkg: white;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+#ad {
+  text-align: center;
+}
+
+.item {
+  background-color: var(--itembkg);
+  border: 1px solid green;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.center {
+  text-align: center;
+}
+
+.item img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+
+@media (min-width: 700px) {
+  .flex {
+    display: flex;
+  }
+
+  .flex1 {
+    flex: 1;
+  }
+} 

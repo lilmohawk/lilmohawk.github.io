@@ -1,0 +1,4 @@
+Header not completely covering the top on mobile screens
+Put image on signup page
+Put label at top of pages so users know what page theyre on
+Design forms better.

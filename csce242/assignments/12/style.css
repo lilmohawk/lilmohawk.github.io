@@ -1,0 +1,52 @@
+:root {
+  --background-color: rgb(167, 167, 167);
+  --itembkg: white;
+}
+
+#assignment {
+  text-align: center;
+}
+body {
+  background-color: var(--background-color);
+}
+
+.item {
+  background-color: var(--itembkg);
+  border: 1px solid green;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#mainDiv {
+  display: flex;
+  background-color: var(--background-color);
+}
+
+#mainDiv div {
+  margin: 10px;
+}
+
+#subDiv {
+  text-align: center;
+  display: flex;
+}
+
+#subDiv img {
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0 auto;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.center {
+  text-align: center;
+}

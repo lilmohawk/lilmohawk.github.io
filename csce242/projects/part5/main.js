@@ -73,6 +73,4 @@ const displayProducts = (item) => {
 
   productpage.append(proLink);
 }
-
-
 showProducts();

@@ -246,6 +246,30 @@ nav a:hover {
   padding: 5px;
 }
 
+/* Contact.html */
+#contactForm {
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.formCenter {
+  display: block;
+  margin: 0 auto;
+}
+
+#map {
+  display: block;
+  margin: 0 auto;
+}
+
+#contactForm input {
+  display: block;
+}
+
 @media (min-width: 700px) {
   .flex {
     display: flex;

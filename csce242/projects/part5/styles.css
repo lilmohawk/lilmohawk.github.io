@@ -114,6 +114,29 @@ nav a:hover {
   padding: 10px;
 }
 
+#addproduct {
+  background-color: var(--button);
+  max-width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#addproductsubmit {
+  background-color: var(--button);
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#image{
+  margin-bottom: 20px;
+}
+
 #searchenter {
   max-width: 100%;
   padding: 10px;

@@ -1,11 +1,18 @@
 const navButton = document.getElementById("smallnav");
 const nav = document.getElementById("nav");
+const addproduct = document.getElementById("addproduct");
 
 const smallnav = () => {
   nav.classList.toggle("active");
 }
 
 navButton.onclick = smallnav;
+addproduct.onclick = () => {
+  let id01 = document.getElementById('id01');
+  id01.style.display = "block";
+  console.log("working");
+}
+
 
 //JSON CODE BELOW
 const getJson = async() => {

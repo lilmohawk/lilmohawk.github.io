@@ -1,0 +1,91 @@
+* {
+  font-family: poppins, sans-serif;
+  font-weight: 200;
+}
+
+body {
+  background-image: url("images/sunset.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #7275FD;
+  color: white;
+}
+
+header {
+  border-bottom: 2px solid rgb(85, 85, 85);
+}
+
+header h1 {
+  text-align: center;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 10% ;
+  margin-bottom: 10%;
+  text-align: center;
+  line-height: 10px;
+}
+
+#wrapper p {
+  -webkit-text-stroke: 1px #7275FD;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid white;
+  rotate: 180deg;
+  margin: 0 auto;
+}
+
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+#container div {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#container div p {
+  font-size: 200%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.socials {
+  text-align: center;
+  margin: 10% auto;
+  padding-top: 2%;
+}
+
+#socialsBox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  #container div p {
+    font-size: 118%;
+  }
+
+  #socialsBox {
+   flex-direction: column;
+  }
+
+  #socialsBox div {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .triangle {
+    display: none;
+  }
+}
